@@ -3,7 +3,6 @@ import requests
 import json
 import os
 
-
 load_dotenv()
 WEATHER_API_KEY=os.getenv("OPENWEATHER_API_KEY")
 
